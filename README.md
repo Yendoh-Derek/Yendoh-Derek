@@ -28,10 +28,10 @@ Actively building and growing RACA Health and Edge AI <br/>
 
 **[DiaTrack](#)** — Clinical decision support tool for diabetes risk and management, built on a cardiometabolic risk prediction system.
 
-### Community
+### Community engagements
 
-- Facilitator, **Google Developer Group Accra**
-- Contributor, **Ghana NLP** open-source projects
+- **Google Developer Group Accra**
+- **Ghana NLP** open-source projects
 
 ---
 
