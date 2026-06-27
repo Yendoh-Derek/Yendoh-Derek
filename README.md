@@ -37,7 +37,7 @@ Actively building and growing RACA Health and Edge AI <br/>
 
 <div align="center">
 
-[Portfolio](https://yendoh-derek.github.io/) · [LinkedIn](https://www.linkedin.com/in/derek-yendoh-4a6174275) · [Twitter](https://x.com/yendohderek) · [Email](mailto:yendohderek@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/derek-yendoh-4a6174275) · [Twitter](https://x.com/yendohderek) · [Email](mailto:yendohderek@gmail.com)
 
 <sub>Accra, Ghana</sub>
 
