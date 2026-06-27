@@ -26,12 +26,6 @@ I'm an AI/ML engineer and early-stage entrepreneur focused on practical AI syste
 
 Beyond engineering, I'm the technical founder behind two ventures applying AI to solve critical challenges in Ghana.
 
-### ⚡ Currently Working On
-
-- 🎙️ Preparing **Cascade**, a low-latency voice AI tutor pipeline, for public release.
-
-<br/>
-
 ### 🛠️ Tech Stack & Tools
 
 <div align="center">
@@ -43,37 +37,22 @@ Beyond engineering, I'm the technical founder behind two ventures applying AI to
 
 <br/>
 
-### 🌟 Featured Projects
+### 🌟 Selected Projects
 
 <table width="100%">
   <tr>
     <td align="center">
-      <h3>🎙️ Cascade</h3>
+      <h3>Cascade</h3>
       <a href="#"><img src="assets/cascade.png" width="90%" alt="Cascade" /></a>
       <br/><br/>
       <p>Open-source low-latency voice AI tutor pipeline. Rebuilt latency instrumentation to fix inflated STT timing and resolved EdgeTTS buffering issues for seamless audio streaming.</p>
     </td>
   </tr>
 </table>
-
-<br/>
-
-<table width="100%">
-  <tr>
-    <td align="center">
-      <h3>🩺 DiaTrack</h3>
-      <a href="#"><img src="assets/diatrack.webp" width="90%" alt="DiaTrack" /></a>
-      <br/><br/>
-      <p>Clinical decision support tool for diabetes risk and management, built on a cardiometabolic risk prediction system.</p>
-    </td>
-  </tr>
-</table>
-
 <br/>
 
 ---
 
 <div align="center">
   <p><i>"I build for real constraints, not ideal assumptions."</i></p>
-  <sub>Building from Accra, for Africa 🌍</sub>
 </div>
