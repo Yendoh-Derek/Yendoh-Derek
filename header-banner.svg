@@ -1,0 +1,67 @@
+<svg width="100%" viewBox="0 0 1210 270" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Derek Yendoh banner</title>
+  <desc>Dark navy banner with name, role tagline, and a subtle animated node-grid accent pattern in blue and teal</desc>
+  <defs>
+    <style>
+      @keyframes pulse {
+        0% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.3); }
+        100% { opacity: 0.3; transform: scale(1); }
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+      }
+      @keyframes drawLine {
+        from { stroke-dashoffset: 150; }
+        to { stroke-dashoffset: 0; }
+      }
+      .node-blue { animation: pulse 4s infinite ease-in-out; transform-origin: center; }
+      .node-teal { animation: pulse 3s infinite ease-in-out; transform-origin: center; fill: #2DD4BF; }
+      .line { stroke-dasharray: 150; animation: drawLine 4s infinite alternate ease-in-out; }
+      .grid-layer { animation: float 10s infinite ease-in-out; }
+    </style>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#3B82F6" opacity="0.35"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1220" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#0B1220" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0B1220" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  
+  <rect x="0" y="0" width="1200" height="260" fill="#0B1220" />
+  
+  <g class="grid-layer">
+    <rect x="550" y="-20" width="650" height="300" fill="url(#grid)" />
+    <!-- Connecting lines -->
+    <line x1="700" y1="40" x2="780" y2="110" stroke="#3B82F6" stroke-width="0.8" opacity="0.6" class="line" />
+    <line x1="780" y1="110" x2="900" y2="80" stroke="#2DD4BF" stroke-width="0.8" opacity="0.6" class="line" />
+    <line x1="900" y1="80" x2="1000" y2="170" stroke="#3B82F6" stroke-width="0.8" opacity="0.6" class="line" />
+    <line x1="780" y1="110" x2="850" y2="200" stroke="#2DD4BF" stroke-width="0.8" opacity="0.6" class="line" />
+    <line x1="1000" y1="170" x2="1100" y2="130" stroke="#3B82F6" stroke-width="0.8" opacity="0.6" class="line" />
+    
+    <!-- Nodes (Circles) -->
+    <circle cx="700" cy="40" r="3.5" fill="#3B82F6" class="node-blue" style="animation-delay: 0s" />
+    <circle cx="780" cy="110" r="3.5" class="node-teal" style="animation-delay: 0.5s" />
+    <circle cx="900" cy="80" r="3.5" fill="#3B82F6" class="node-blue" style="animation-delay: 1s" />
+    <circle cx="1000" cy="170" r="3.5" class="node-teal" style="animation-delay: 1.5s" />
+    <circle cx="850" cy="200" r="3.5" fill="#3B82F6" class="node-blue" style="animation-delay: 2s" />
+    <circle cx="1100" cy="130" r="3.5" class="node-teal" style="animation-delay: 2.5s" />
+  </g>
+
+  <rect x="0" y="0" width="1200" height="260" fill="url(#fade)" />
+  
+  <!-- Text Content -->
+  <text x="80" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#F8FAFC">Derek Yendoh</text>
+  <text x="80" y="160" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#94A3B8">AI/ML Software Engineer · Technical Founder</text>
+  
+  <!-- Accent Line (Blue to Teal Gradient) -->
+  <rect x="80" y="190" width="90" height="4" fill="url(#accent-line)" rx="2" />
+</svg>
