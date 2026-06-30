@@ -26,7 +26,7 @@ Actively building and growing RACA Health and Edge AI <br/>
 
 **[Cascade](https://github.com/Yendoh-Derek/Cascade)** — Open-source low-latency voice AI tutor pipeline. Rebuilt latency instrumentation to fix an inflated STT timing bug and resolved an EdgeTTS buffering issue that was silently defeating audio streaming.
 
-**[DiaTrack](#)** — Clinical decision support tool for diabetes risk and management, built on a cardiometabolic risk prediction system.
+**[DiaTrack](https://github.com/Yendoh-Derek/DiaTrack-Web-App)** — Clinical decision support tool for diabetes risk and management, built on a cardiometabolic risk prediction system.
 
 ### Community engagements
 
